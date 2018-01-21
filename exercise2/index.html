@@ -2,6 +2,7 @@
 <html lang='en-GB'>
 <head>
 	<meta charset='utf-8'>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
   	<title>Ractive test</title>
   	<link href="jquery-mobile/jquery.mobile-1.4.5.min.css" rel="stylesheet" type="text/css">
 	<script src="jquery-mobile/jquery-1.11.1.min.js"></script>
@@ -16,6 +17,9 @@
 		<ul>
 		 {{#each fruitlist}}
 			<li> {{name}} </li>
+			<li> {{colour}} </li>
+			<li> {{cost}} </li>
+			<li> {{origin}} </li>
 			 {{/each}}
 		</ul>
   		
